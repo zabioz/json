@@ -1,7 +1,7 @@
 $(function(){
 	// ニュースのjsonファイルを取得
 	$.ajax({
-	  url: "news.json",			// 取得対象となるjsonファイルのパス
+	  url: "../news.json",			// 取得対象となるjsonファイルのパス
 	  cache: false,					// 取得したデータをキャッシュさせない
 	  type: "GET",					// GETメソッドで取得
 	  dataType: "json",			// json形式でデータを取得
